@@ -6,7 +6,7 @@ PlayerSettings:
   serializedVersion: 22
   productGUID: 943bf531051b85745bd2a93001c51311
   AndroidProfiler: 0
-  AndroidFilterTouchesWhenObscured: 0
+  AndroidFilterTouchesWhenObscured: 1
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 4
   targetDevice: 2
@@ -167,7 +167,7 @@ PlayerSettings:
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
-  stripEngineCode: 0
+  stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
   ForceInternetPermission: 0
@@ -231,7 +231,7 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileType: 0
   tvOSManualSigningProvisioningProfileType: 0
   appleEnableAutomaticSigning: 0
-  iOSRequireARKit: 0
+  iOSRequireARKit: 1
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
@@ -246,7 +246,7 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 2
-  AndroidTargetDevices: 0
+  AndroidTargetDevices: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -263,7 +263,7 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  chromeosInputEmulation: 1
+  chromeosInputEmulation: 0
   AndroidMinifyWithR8: 0
   AndroidMinifyRelease: 0
   AndroidMinifyDebug: 0
@@ -444,7 +444,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: Camera access needed to use AR features
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
@@ -730,6 +730,7 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform:
     Android: 3
     Standalone: 3
+    iPhone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template_Lightweight

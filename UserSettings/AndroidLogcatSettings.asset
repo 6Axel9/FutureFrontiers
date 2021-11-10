@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "QV7106DX50",
+    "m_SelectedDeviceId": "BH9032DEBZ",
     "m_SelectedPackage": {
-        "deviceId": "QV7106DX50",
+        "deviceId": "BH9032DEBZ",
         "name": "com.MadladsCorp.FutureFrontiers",
-        "processId": 17940,
+        "processId": 15911,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,30 @@
             "deviceId": "QV7106DX50",
             "name": "com.MadladsCorp.FutureFrontiers",
             "processId": 17940,
+            "exited": true
+        },
+        {
+            "deviceId": "QV7106DX50",
+            "name": "com.MadladsCorp.FutureFrontiers",
+            "processId": 21333,
+            "exited": true
+        },
+        {
+            "deviceId": "QV7106DX50",
+            "name": "com.whatsapp",
+            "processId": 24841,
+            "exited": false
+        },
+        {
+            "deviceId": "QV7106DX50",
+            "name": "com.MadladsCorp.FutureFrontiers",
+            "processId": 28744,
+            "exited": false
+        },
+        {
+            "deviceId": "BH9032DEBZ",
+            "name": "com.MadladsCorp.FutureFrontiers",
+            "processId": 15911,
             "exited": false
         }
     ],
@@ -72,6 +96,6 @@
         "Behavior": 0
     },
     "m_Filter": "",
-    "m_FilterIsRegularExpression": false,
+    "m_FilterIsRegularExpression": true,
     "m_SymbolPaths": []
 }
