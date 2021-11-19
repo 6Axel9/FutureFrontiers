@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "BH9032DEBZ",
+    "m_SelectedDeviceId": "QV7106DX50",
     "m_SelectedPackage": {
-        "deviceId": "BH9032DEBZ",
+        "deviceId": "QV7106DX50",
         "name": "com.MadladsCorp.FutureFrontiers",
-        "processId": 16643,
+        "processId": 14668,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,43 +11,43 @@
         {
             "deviceId": "QV7106DX50",
             "name": "com.sonymobile.launcher",
-            "processId": 4463,
+            "processId": 2628,
             "exited": false
         },
         {
             "deviceId": "QV7106DX50",
             "name": "com.MadladsCorp.FutureFrontiers",
-            "processId": 17940,
+            "processId": 19968,
             "exited": true
         },
         {
             "deviceId": "QV7106DX50",
             "name": "com.MadladsCorp.FutureFrontiers",
-            "processId": 21333,
+            "processId": 22119,
             "exited": true
         },
         {
             "deviceId": "QV7106DX50",
-            "name": "com.whatsapp",
-            "processId": 24841,
-            "exited": false
+            "name": "com.MadladsCorp.FutureFrontiers",
+            "processId": 27758,
+            "exited": true
         },
         {
             "deviceId": "QV7106DX50",
             "name": "com.MadladsCorp.FutureFrontiers",
-            "processId": 28744,
-            "exited": false
-        },
-        {
-            "deviceId": "BH9032DEBZ",
-            "name": "com.MadladsCorp.FutureFrontiers",
-            "processId": 15911,
+            "processId": 30592,
             "exited": true
         },
         {
-            "deviceId": "BH9032DEBZ",
+            "deviceId": "QV7106DX50",
             "name": "com.MadladsCorp.FutureFrontiers",
-            "processId": 16643,
+            "processId": 10166,
+            "exited": true
+        },
+        {
+            "deviceId": "QV7106DX50",
+            "name": "com.MadladsCorp.FutureFrontiers",
+            "processId": 14668,
             "exited": false
         }
     ],
@@ -59,7 +59,7 @@
             },
             {
                 "m_Name": "No Filter",
-                "m_Selected": true
+                "m_Selected": false
             },
             {
                 "m_Name": "",
@@ -75,7 +75,7 @@
             },
             {
                 "m_Name": "Unity",
-                "m_Selected": false
+                "m_Selected": true
             },
             {
                 "m_Name": "CRASH",
@@ -102,6 +102,6 @@
         "Behavior": 0
     },
     "m_Filter": "",
-    "m_FilterIsRegularExpression": true,
+    "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
