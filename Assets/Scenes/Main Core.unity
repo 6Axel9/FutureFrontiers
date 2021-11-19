@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0214f8d5fc73e044ab9786ae41ea6f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lobbyScene: 1
+  lobbyScene: 2
   matchScene: 2
 --- !u!4 &1722118013
 Transform:
