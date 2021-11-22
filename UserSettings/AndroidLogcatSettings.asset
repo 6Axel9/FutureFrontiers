@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "QV7106DX50",
         "name": "com.MadladsCorp.FutureFrontiers",
-        "processId": 14668,
+        "processId": 30751,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,24 @@
             "deviceId": "QV7106DX50",
             "name": "com.MadladsCorp.FutureFrontiers",
             "processId": 14668,
+            "exited": false
+        },
+        {
+            "deviceId": "QV7106DX50",
+            "name": "com.MadladsCorp.FutureFrontiers",
+            "processId": 24118,
+            "exited": false
+        },
+        {
+            "deviceId": "QV7106DX50",
+            "name": "com.MadladsCorp.FutureFrontiers",
+            "processId": 27334,
+            "exited": false
+        },
+        {
+            "deviceId": "QV7106DX50",
+            "name": "com.MadladsCorp.FutureFrontiers",
+            "processId": 30751,
             "exited": false
         }
     ],

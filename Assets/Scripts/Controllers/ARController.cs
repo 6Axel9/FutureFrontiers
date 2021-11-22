@@ -14,13 +14,15 @@ public class ARController : MonoBehaviour
     [SerializeField]
     private ARSessionOrigin origin;
     [SerializeField]
-    private Transform content;
+    private Transform contentRoot;
+    [SerializeField]
+    private GameObject contentPrefab;
 
     private ARAnchorManager anchorManager;
     private ARRaycastManager raycastManager;
     private ARTrackedImageManager imageManager;
 
-    public bool IsContentAnchored => content.parent != null;
+    public bool IsRootAnchored => contentRoot.parent != null;
     public ARSessionState State => ARSession.state;
 
     private bool hasAnchor;
@@ -90,11 +92,14 @@ public class ARController : MonoBehaviour
     {
         Debug.Log("Content Placed");
 
-        content.rotation = syncer.transform.rotation;
-        content.position = syncer.transform.position;
+        if (contentRoot.childCount == 0)
+            Instantiate(contentPrefab, contentRoot);
+
+        contentRoot.rotation = syncer.transform.rotation;
+        contentRoot.position = syncer.transform.position;
         elapsedFrames++;
 
-        if (IsContentAnchored && elapsedFrames > maxFrames)
+        if (IsRootAnchored && elapsedFrames > maxFrames)
             DisableImageTracking();
 
         if (hasAnchor)
@@ -106,14 +111,14 @@ public class ARController : MonoBehaviour
 
     private void AnchorContent(ARAnchor newAnchor)
     {
-        if (IsContentAnchored)
+        if (IsRootAnchored)
             RemoveAnchor();
 
-        content.SetParent(newAnchor.transform);
+        contentRoot.SetParent(newAnchor.transform);
 
         Debug.Log("Content Activeted");
 
-        content.gameObject.SetActive(true);
+        contentRoot.gameObject.SetActive(true);
     }
 
     private void AddAnchor(ARRaycastHit hit)
@@ -127,8 +132,8 @@ public class ARController : MonoBehaviour
     {
         Debug.Log("Anchor Removed");
 
-        GameObject oldAnchor = content.parent.gameObject;
-        content.SetParent(null);
+        GameObject oldAnchor = contentRoot.parent.gameObject;
+        contentRoot.SetParent(null);
         Destroy(oldAnchor);
     }
 
