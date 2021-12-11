@@ -1,0 +1,20 @@
+- Gameplay Format
+
+- Initial Setup
+	[Scan Arena Anchor]
+	[Select Arena]
+	[Confirm Selections]
+- Units Setup
+	[Scan Unit]
+	[Confirm Unit]
+	[Repeat Process]
+- Startup Phase
+	[Confirm Setup]
+	[Wait For Response]
+- Match Phase
+	[Select Unit]
+	[Select Action]
+	[Confirm Action]
+	[Repeat Process]
+	[Pass Phase]
+	[Wait For Response]

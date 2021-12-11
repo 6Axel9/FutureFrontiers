@@ -1,6 +1,7 @@
 using UnityEditor;
 
-//[CustomPropertyDrawer(typeof(CustomDictionary))]
+[CustomPropertyDrawer(typeof(GamePhasesDictionary))]
+[CustomPropertyDrawer(typeof(SpawnableDictionary))]
 public class CustomDictionaryPropertyDrawer : SerializableDictionaryPropertyDrawer { }
 
 //[CustomPropertyDrawer(typeof(CustomDictionaryStorage))]
